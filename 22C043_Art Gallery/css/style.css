@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.logo-img img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.menus ul li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(188, 234, 246);
+}
+
+.menus ul li a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.menus ul li a:hover{
+    background-color: rgb(159, 140, 204);
+    padding: 5px;
+}
+
+.menus ul li i {
+    margin-right: 5px;
+}
+
+.art-title {
+     margin-top: 20px;
+}
+
+.art-title h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(21, 21, 99);
+    text-shadow: 1px 2px rgb(12, 8, 47);
+    margin-bottom: 15px;
+    transition: font-style 0.5s;
+}
+
+.art-title h1:hover {
+    font-style: normal;
+    color: #e91e63;
+}
+  
+.art-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.art-section2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.art-details {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.art-image img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.art-image img {
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+  
+.art-image img:active {
+    transform: translateX(100px);
+}
+
+.art-descr {
+    text-align: center;
+}
+
+.art-descr h3 {
+    margin: 5px 0px;
+}
+
+.art-descr p {
+    font-style: bold;
+    margin-bottom: 5px;
+    color: rgb(71, 72, 72);
+}
+
+.mus-title1 h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(66, 9, 39) ;
+    text-shadow: 1px 2px rgb(80, 9, 42);
+    margin-top: 40px;
+    transition: font-style 0.5s;
+}
+
+.mus-title1 h1:hover {
+    font-style: normal;
+    color: #1d76c4;
+}
+
+
+.mus-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mus-detail {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.mus-image img {
+    width: 250px;
+    height:250px;
+}
+
+.mus-image img {
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+  
+.mus-image img:active {
+    transform: translateX(100px);
+}
+
+.mus-desc {
+    text-align: center;
+}
+
+.mus-desc h2 {
+   margin-top: 5px;
+   font-size: 14px;
+}
+
+.mus-desc p {
+    margin-top:5px;
+    font-style: italic;
+    color: rgb(94, 86, 86);
+}
+
+.mus-desc h5{
+    margin:5px 0px;
+    font-size: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    line-height: 30px;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px ;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.footer-col .social-links a:hover{
+    color:blue;
+}
+
+.rights {
+    background-color: #24262b;
+    padding: 20px;
+}
+
+.rights p {
+    text-align: center;
+    font-size: 18px;
+    color:#ffffff;
+}
